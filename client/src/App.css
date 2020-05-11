@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Galada&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +36,252 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.user-message-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  margin-bottom: 0.1em;
+  margin-right: 1em;
+}
+.user-message {
+  background-color: #289dfc;
+  color: white;
+  border-radius: 2em;
+  padding: 0.3em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.other-message-box {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.1em;
+  margin-left: 1em;
+}
+.other-message {
+  background-color: #e5e5e9;
+  border-radius: 2em;
+  padding: 0.3em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+.message-name {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  color: grey;
+}
+.messaging-input {
+  width: 100%;
+  border-radius: 2em;
+  border: 0em solid white;
+  font-size: large;
+  padding: 0.1em;
+}
+
+.messaging-container {
+  display: flex;
+}
+
+.messaging-input-container {
+  padding: 1em;
+  padding-left: 1.3em;
+  padding-right: 1.6em;
+  background-color: #e9e8ee;
+}
+.sub-messaging-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.message-box {
+  height: 85vh;
+  overflow: scroll;
+}
+input:focus {
+  outline: none;
+}
+.message-container {
+  width: 100ch;
+  border: 1px solid lightgray;
+}
+
+.room-info {
+  width: 30ch;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-room-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 2em;
+}
+
+.room-name {
+  text-align: left;
+  background-color: #f0efefe7;
+  padding: 0.5em;
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+}
+
+.room-info-title {
+  text-align: left;
+  background-color: #f0efefe7;
+  padding: 0.5em;
+  border: 1px solid lightgray;
+}
+
+.user-room {
+  border-bottom: 1px solid lightgray;
+  padding: 1em;
+}
+
+.room-button {
+  text-decoration: none;
+  color: white;
+  background-color: #289dfc;
+  border: 1px solid #289dfc;
+  border-radius: 5em;
+  padding: 1em;
+}
+
+.landing-container {
+  background-color: #ffacba;
+  color: white;
+  font-size: 2em;
+  height: 100vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffacba;
+  padding: 1em;
+  font-family: "Galada", cursive;
+  font-size: 2em;
+}
+.nav-stuff1 {
+  width: 10em;
+}
+.nav-stuff1 a {
+  text-decoration: none;
+  color: black;
+}
+.nav-stuff1 a:hover {
+  text-decoration: none;
+  color: white;
+}
+.nav-stuff2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20em;
+}
+.nav-stuff2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-stuff2 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.introduction {
+  font-family: "Courgette", cursive;
+  padding-top: 2em;
+  font-size: 1.5em;
+}
+
+.intro-3 {
+  font-size: 0.5em;
+  padding-top: 1em;
+}
+
+.intro-button {
+  font-family: "Courgette", cursive;
+  font-size: 0.65em;
+  background-color: white;
+  color: black;
+  border-radius: 3em;
+  padding: 0.5em;
+  border: 0.2em solid black;
+  margin-top: 1em;
+  outline: none;
+}
+
+.intro-button:hover {
+  background-color: #ffacba;
+  cursor: pointer;
+}
+
+.join-container {
+  background-color: #ffacba;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.join-title {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 3em;
+  padding-top: 1em;
+}
+.sub-join-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  padding: 1em;
+  font-size: 1em;
+}
+.form-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  margin-left: 30em;
+}
+.form-container div input {
+  font-size: 2em;
+  border-radius: 3em;
+  border: 0.1em solid white;
+  margin-left: 2em;
+}
+.join-title {
+  margin-bottom: 0.75em;
+}
+.join-sub-title {
+  font-size: 2em;
+  color: white;
+}
+
+.join-button {
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+  background-color: white;
+  color: black;
+  border-radius: 3em;
+  padding: 0.5em;
+  border: 0.2em solid black;
+  margin-top: 1em;
+  outline: none;
+}
+
+.join-button:hover {
+  background-color: #ffacba;
+  cursor: pointer;
 }
